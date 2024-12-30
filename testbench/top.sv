@@ -5,11 +5,11 @@ module top();
     reg rst;
     wire out;
 
-    parameter int div_value = 5;
-    parameter int SIM_TIME = 100;
+    parameter int div_value = 3;
+    parameter int SIM_TIME = 1000;
     parameter int CLK_PERIOD = 10;
 
-    div_by_n dut(
+    div_by_n #(div_value) dut(
         .clk(clk),
         .rst(rst),
         .out(out)

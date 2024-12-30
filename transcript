@@ -1,5 +1,5 @@
 # vsim -i -classdebug -msgmode both -do "set NoQuitOnFinish 1; do wave.do; run -all" top 
-# Start time: 19:47:16 on Dec 29,2024
+# Start time: 20:03:42 on Dec 29,2024
 # Loading sv_std.std
 # Loading work.top
 # Loading work.div_by_n
@@ -8,6 +8,8 @@
 #  do wave.do
 #  run -all
 # ** Note: $finish    : ./testbench/top.sv(29)
-#    Time: 100 ns  Iteration: 0  Instance: /top
+#    Time: 1 us  Iteration: 0  Instance: /top
 # 1
 # Break in Module top at ./testbench/top.sv line 29
+# End time: 20:04:24 on Dec 29,2024, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
