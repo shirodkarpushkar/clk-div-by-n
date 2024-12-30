@@ -28,6 +28,12 @@ A **Divide-by-N** circuit is a sequential digital circuit that reduces the frequ
 
 The `Makefile` defines the following targets:
 
+```
+vlib work 
+```
+Use this command to create a new library named `work` in the current directory.
+
+
 ### 1. **`compile`**
 
 - **Description**:  Compiles the RTL design and testbench files.
