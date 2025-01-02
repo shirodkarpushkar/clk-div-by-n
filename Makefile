@@ -8,15 +8,20 @@ SRC = $(VERILOG_SRC) $(TESTBENCH_SRC)
 # Default target
 all: compile
 
-# Compile target
-compile:
-	vlog $(SRC) 
+optimize:
+	vopt +acc top -o optimized_debug_top_tb
 
+# Compile target
+
+compile_src:
+	vlog $(SRC)
+
+compile: compile_src optimize
 # Clean target
 clean:
 	rm -rf work *.wlf transcript
 
 simulate:
-	vsim -i -classdebug -msgmode both -do "set NoQuitOnFinish 1; do wave.do; run -all" top
+	vsim -i -classdebug -msgmode both -do "set NoQuitOnFinish 1; do wave.do; run -all" optimized_debug_top_tb
 
 debug: compile  simulate

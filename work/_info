@@ -1,56 +1,94 @@
 m255
 K4
 z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+Z1 !s12c _opt
+R0
+R1
+R0
+!s11f vlog 2023.3 2023.07, Jul 17 2023
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/shiro/OneDrive - North Carolina State University/Documents/NCSU/ECE 745 ASIC Verification/udemy/sample_project
-vdiv_by_n
-Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1735520616
-!i10b 1
-!s100 dnFU6:408eoEQiJCJFk^k1
-I9>PN1aMAA?^_O8B9W7dz61
-Z3 VDg1SIo80bB@j0V0VzS_@n1
-!s105 dut_sv_unit
-S1
+Z2 dC:/Users/shiro/OneDrive - North Carolina State University/Documents/NCSU/ECE 745 ASIC Verification/udemy/divide-by-n
+T_opt
+!s110 1735740399
+V2i3kW;Zo`I0NPklXd?o3g2
+Z3 04 3 4 work top fast 0
+=1-2c981173cb45-67754bee-337-4550
 R0
+Z4 !s12b OEM100
+Z5 !s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2023.3;77
+R2
+vdiv_by_n
+Z8 2./rtl/dut.sv|./testbench/top.sv
+Z9 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z10 !s110 1735778635
+!i10b 1
+!s100 7b_KM6dmG^Y>kTCCIL=E=3
+I>f4`n;^2;Ra`CR^FE_dB_1
+S1
+R2
 w1735502148
 8./rtl/dut.sv
 F./rtl/dut.sv
-L0 1
-Z4 OV;L;10.5b;63
+!i122 3
+L0 1 51
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2023.3;77
 r1
 !s85 0
 31
-Z5 !s108 1735520616.000000
-Z6 !s107 ./testbench/top.sv|./rtl/dut.sv|
-Z7 !s90 ./rtl/dut.sv|./testbench/top.sv|
-!i113 1
-Z8 tCvgOpt 0
-vtop
-R1
-R2
-!i10b 1
-!s100 0zc_1T>F`^1obJhJ^Z83A1
-IKBM?iWS5:Sh@b0FNAL3:51
+Z13 !s108 1735778635.000000
+Z14 !s107 ./testbench/top.sv|./rtl/dut.sv|
+Z15 !s90 ./rtl/dut.sv|./testbench/top.sv|
+!i113 0
+Z16 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+Toptimized_debug_top_tb
+R10
+VljGDEc227KAR_OV1E=10[0
 R3
-!s105 top_sv_unit
-S1
 R0
-w1735520614
+R4
+R5
+o+acc
+R6
+noptimized_debug_top_tb
+R7
+vtop
+R8
+R9
+R10
+!i10b 1
+!s100 59NQm8T^od^Wo;c6^U00S0
+IRD?<ljNHJ[9;]f9KAEK_i1
+S1
+R2
+w1735740056
 8./testbench/top.sv
 F./testbench/top.sv
-L0 3
-R4
+!i122 3
+L0 3 30
+R11
+R12
 r1
 !s85 0
 31
-R5
+R13
+R14
+R15
+!i113 0
+R16
 R6
-R7
-!i113 1
-R8
